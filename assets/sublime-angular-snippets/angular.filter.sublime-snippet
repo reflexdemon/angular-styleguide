@@ -10,13 +10,14 @@
         return ${2:filter}Filter;
 
         ////////////////
+
         function ${2:filter}Filter(${3:params}) {
             return ${3:params};
-        };
+        }
     }
 
 })();
 ]]></content>
     <tabTrigger>ngfilter</tabTrigger>
-    <scope>source.js</scope>
+    <scope>text.plain, source.js</scope>
 </snippet>

@@ -10,9 +10,9 @@ Si vous cherchez un guide de style pour la syntaxe, les conventions, et la struc
 
 Le but de ce guide de style est de proposer des conseils sur le développement d'applications Angular en montrant les conventions que j'utilise et, plus important encore, les raisons des choix que j'ai pris.
 
->Si vous appréciez ce guide, visitez mon cours [AngularJS Patterns: Clean Code](http://jpapa.me/ngclean) sur Pluralsight.
+>Si vous appréciez ce guide, visitez mon cours [Angular Patterns: Clean Code](http://jpapa.me/ngclean) sur Pluralsight.
 
-  [![AngularJs Patterns: Clean Code](https://raw.githubusercontent.com/johnpapa/angular-styleguide/master/assets/ng-clean-code-banner.png)](http://jpapa.me/ngclean)
+  [![Angular Patterns: Clean Code](https://raw.githubusercontent.com/johnpapa/angular-styleguide/master/assets/ng-clean-code-banner.png)](http://jpapa.me/ngclean)
 
 ## Suprématie de la Communauté et Remerciements
 Ne jamais travailler dans le vide. J'ai trouvé que la communauté Angular est un incroyable groupe dont les membres ont à coeur de partager leurs expériences. Ainsi, un ami et expert Angular Todd Motto et moi avons collaboré sur de nombreux styles et conventions. Nous sommes d'accord sur la plupart, et nous divergeons sur d'autres. Je vous encourage à visiter [les guideslines de Todd](https://github.com/toddmotto/angularjs-styleguide) pour vous faire un sentiment sur son approche et en quoi elle est comparable.
@@ -2093,7 +2093,7 @@ Alors que ce guide explique le *quoi*, le *pourquoi* et le *comment*, il m'a ét
 ### Layout
 ###### [Style [Y151](#style-y151)]
 
-  - Placez les composants qui définissent le layout principal de l'application dans un répertoire nommé `layout`. Il devrait inclure une vue noyau et le controlleur devrait agir comme conteneur pour l'appli, la nivigation, les menus, les zones de contenu, et les autres régions.
+  - Placez les composants qui définissent le layout principal de l'application dans un répertoire nommé `layout`. Il devrait inclure une vue noyau et le controlleur devrait agir comme conteneur pour l'appli, la navigation, les menus, les zones de contenu, et les autres régions.
 
     *Pourquoi ?* : Organise tout le layout à un seul endroit réutilisé dans l'application.
 
